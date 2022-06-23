@@ -1,0 +1,337 @@
+.App {
+  text-align: center;
+}
+.bulb
+{
+  text-align: center;
+}
+.nav
+{
+  background-color: rgb(252, 252, 252);
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: black;
+}
+.feed-links
+{
+  font-weight: bold;
+  color: rgb(22, 21, 21);
+  text-decoration: none;
+}
+.noNav
+{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bulb
+{
+  color: white;
+}
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.signIn-btn
+{
+  
+  margin-left: -100px;
+  margin-top: 20px;
+}
+.signIn-btn:hover
+{
+ 
+}
+
+.age-quote
+{
+  font-size: 2rem;
+  text-align: left;
+  color: white;
+
+}
+
+.large-heading
+{
+  font-size: 6rem;
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  margin-left: -100px;
+;
+	
+}
+
+
+
+.google-btn
+{
+  cursor: pointer;
+  text-align: center;
+  background-color:  #4285F4;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  
+
+}
+
+.container
+{
+  background-color: rgb(24, 23, 23);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+img
+{
+
+  
+  width: 70%;
+  /* height: 50%; */
+  border-radius: 10px;
+}
+
+.left
+{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 20px; */
+}
+
+.right
+{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-container
+{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* height: 100vh; */
+  margin-top: 70px;
+}
+
+.feed-container
+{
+  width: 40%;
+  position: relative;
+  /* background-color: #330867; */
+}
+
+.create-post
+{
+  width: 100%;
+  height: 9rem;
+  border-radius: 10px;
+  /* background-color: black; */
+  position: relative;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
+
+}
+
+.postimg
+{
+  border-radius: 50%;
+}
+.post-image
+{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -30px;
+  left: 10px;
+  border-radius: 15px;
+
+}
+
+.btn 
+{
+  width: 150px;
+  height: 30px;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #4285F4;
+}
+
+.post-btn
+{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  
+}
+
+form
+{
+  border: none;
+}
+textarea
+{
+  border: none;
+  width: 80%;
+  height: max-content;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+textarea:focus
+{
+  border: none;
+  outline: none;
+}
+
+.text-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.Posted-post
+{
+  width: 100%;
+  height: 9rem;
+  border-radius: 10px;
+  /* background-color: black; */
+  position: relative;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.message-container
+{
+  width: 250px;
+  height: 25px;
+  background-color: rgb(52, 147, 236);
+  border-radius: 12px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  font-size: bold;
+  margin-top: 20px;
+  position: relative;
+}
+
+
+.mright
+{
+  color: #1d1414;
+  position: absolute;
+  right: 0;
+  
+
+}
+.msg 
+{
+  background-color: #4285F4;
+  margin-top:20px ;
+  border-radius: 10px;
+  height: 30px;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  align-items: center;
+  display: flex;
+  justify-content: left;
+}
+
+.my-message
+{
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+.main-message-container
+{
+  background-color: #131212;
+  margin-top: 0px;
+}
+.msg-container
+{
+  padding: 20px;
+  background-color: #04011c;
+
+}
+
+.tag 
+{
+  font-size: 10px;
+  color: rgb(204, 203, 203);
+}
+
+.area 
+{
+  border-radius: 10px;
+  padding: 10px;
+  height: 35px;
+}
+
+.cover-photo
+{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(127, 127, 127);
+  position: relative;
+
+  
+}
+
+.profile-image
+{
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  margin-left: 30px ;
+  margin-bottom: -50px;
+}
+.dead-text
+{
+  margin-top: 150px;
+  font-size: 3rem;
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  margin-left: -100px;
+}
